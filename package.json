@@ -1,0 +1,28 @@
+{
+  "name": "normalize-elements",
+  "version": "1.0.0",
+  "author": "Alexander Spirgel",
+  "description": "A utility function that returns an array of element references from a variety of argument types.",
+  "license": "MIT",
+  "keywords": [
+    "normalize-elements",
+    "normalizeelements",
+    "normalize",
+    "elements"
+  ],
+  "main": "normalize-elements.js",
+  "files": [
+    "/normalize-elements.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexspirgel/normalize-elements.git"
+  },
+  "homepage": "https://github.com/alexspirgel/normalize-elements#readme",
+  "bugs": {
+    "url": "https://github.com/alexspirgel/normalize-elements/issues"
+  },
+  "devDependencies": {
+    "@alexspirgel/is-element": "^1.0.4"
+  }
+}
