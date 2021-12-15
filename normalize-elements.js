@@ -3,12 +3,12 @@ const isElement = require('@alexspirgel/is-element');
 function normalizeElements(inputValue, elementsSet = new Set()) {
 	if (Array.isArray(inputValue) || inputValue instanceof NodeList) {
 		for (let value of inputValue) {
-			this.normalizeElements(value, elementsSet);
+			normalizeElements(value, elementsSet);
 		}
 	}
 	else if (typeof inputValue === 'string') {
 		let elements = document.querySelectorAll(inputValue);
-		this.normalizeElements(elements, elementsSet);
+		normalizeElements(elements, elementsSet);
 	}
 	else if (isElement(inputValue)) {
 		elementsSet.add(inputValue);
