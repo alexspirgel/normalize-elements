@@ -1,6 +1,6 @@
 {
   "name": "@alexspirgel/normalize-elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Alexander Spirgel",
   "description": "A utility function that returns an array of element references from a variety of argument types.",
   "license": "MIT",
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/alexspirgel/normalize-elements/issues"
   },
-  "devDependencies": {
+  "dependencies": {
     "@alexspirgel/is-element": "^1.0.4"
   }
 }
