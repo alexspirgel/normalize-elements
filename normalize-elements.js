@@ -7,8 +7,7 @@ function normalizeElements(inputValue, elementsSet = new Set()) {
 		}
 	}
 	else if (typeof inputValue === 'string') {
-		let elements = document.querySelectorAll(inputValue);
-		normalizeElements(elements, elementsSet);
+		normalizeElements(document.querySelectorAll(inputValue), elementsSet);
 	}
 	else if (isElement(inputValue)) {
 		elementsSet.add(inputValue);
